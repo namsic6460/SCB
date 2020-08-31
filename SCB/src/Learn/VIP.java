@@ -23,13 +23,13 @@ public class VIP extends Person{
 	}
 
 	public VIP (Person person, int rank) {
-		return VIP(Person.getRRN(), Person.getName, Person.getMoney,rank);
+		this(person.getRRN(), person.getName(), person.getMoney(),rank);
 	}
 	public VIP (String RRN, String name, int money, int rank) {
 		super(RRN, name, money);
 		this.setRank(rank);
 	}
 	public String toString() {
-		return this.getName() + " [ " + this.getRank() + "]" + this.getMoney;
+		return this.getName() + "[" + this.getRank() + "]" + this.getMoney();
 	}
 }

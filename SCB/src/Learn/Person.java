@@ -39,6 +39,6 @@ public class Person {
 	}
 	@Override
 	public String toString() {
-		return this.getName() + " - " + this.getMoney;
+		return this.getName() + " - " + this.getMoney();
 	}
 }
