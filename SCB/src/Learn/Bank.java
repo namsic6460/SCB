@@ -47,7 +47,7 @@ public class Bank {
 		else {
 			if(account instanceof VIP) {
 				for(int i = MAX_ACCOUNT-1; i>=0; i--) {
-					if(!(account instanceof VIP)) {
+					if(!(this.accounts[i] instanceof VIP)) {
 						this.addLog("계좌 삭제- " + this.accounts[i].toString());
 						this.accounts[i] = account;
 						this.addLog("계좌 추가 성공 - " + account.toString());
