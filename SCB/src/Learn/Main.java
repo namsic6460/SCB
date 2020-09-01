@@ -8,6 +8,10 @@ public class Main {
 		person.addMoney(-5000);
 		System.out.println(person.toString());
 		System.out.println(vip.toString());
+		
+		/*
+		 * Bank에서 작성한 코드를 테스트할 수 있는 구문을 만들고 테스트해보기!
+		 */
 	}
 
 }

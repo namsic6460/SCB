@@ -18,6 +18,9 @@ public class Bank {
 		logs = new ArrayList<>();
 		size = 0;
 		
+		/*
+		 * format 변수를 재선언하지 말고 대입만 해줘야함
+		 */
 		SimpleDateFormat format = new SimpleDateFormat("YYYY-MM-DD");
 		
 		this.addLog("은행 설립");
